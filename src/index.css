@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  border: 80px solid #0b2434;
+  text-align: center;
+}
+.diceContainer {
+  margin-top: 2rem;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 1rem;
+}
+.dice {
+  font-size: 2rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(223, 213, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.rollButton {
+  width: 100px;
+  height: 44px;
+  margin-top: 4rem;
+  background-color: rgb(79, 79, 174);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.true {
+  background-color: rgb(122, 218, 122);
+}
